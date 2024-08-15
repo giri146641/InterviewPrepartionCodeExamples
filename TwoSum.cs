@@ -31,8 +31,30 @@ namespace ConsoleApp1
                     }
                 }
             }
-            Console.WriteLine(ans[0] + "" + ans[1]);
+            //Console.WriteLine(ans[0] + "" + ans[1]);
             return ans;
+        }
+
+        //Alertantive solution : Time Complexity o(n)
+        //Need to store the value and respctive index using Dictonary later as you saw below code for loop go through all
+        //array then first time it will caluclate actual target - first value of array then it will not found then it will stoare actual
+        //array value in dictonray for the value 2 index is 0 once that done for the next time target is 9 and array value is 2
+        //after sbstarction the value is since it already there in dictonary it will right value 7 index 1, so answer is [0,1]
+        public int[] TwoSumofArrayList(int[] nums, int target)
+        {
+            var pairs = new Dictionary<int, int>();
+            int n = nums.Length;
+            for (int i = 0; i < n; i++)
+            {
+                if (pairs.ContainsKey(target - nums[i]))
+                {
+                    return new int[] { pairs[target - nums[i]] , i };
+                } else
+                {
+                    pairs.Add(target - nums[i], i);
+                }
+            }
+            return default;
         }
     }
 }

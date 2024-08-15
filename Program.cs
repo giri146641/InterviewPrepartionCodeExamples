@@ -90,7 +90,7 @@ namespace ConsoleApp1
             //ListNode l2 = linkedList.ArrayToListNodes(arr2);
 
             //ListNode result = linkedList.AddTwoNumbers(l1, l2);
-            //while(result != null)
+            //while (result != null)
             //{
             //    Console.WriteLine(result.val + "");
             //    result = result.next;
@@ -101,6 +101,14 @@ namespace ConsoleApp1
             //int[] nums = { 2, 7, 11, 15 };
             //int target = 9;
             //twoSum.TwoSumofArray(nums, target);
+
+            //TwoSum
+            //TwoSum twoSum = new TwoSum();
+            //int[] nums = { 2, 7, 11, 15 };
+            //int target = 9;
+            //twoSum.TwoSumofArrayList(nums, target);
+            //Console.WriteLine(twoSum.TwoSumofArrayList(nums, target));
+            //Console.WriteLine(twoSum.TwoSumofArrayList(nums, target));
 
             //Longest Substaring
             //StringCodingQuestions stringCodingQuestions = new StringCodingQuestions();
