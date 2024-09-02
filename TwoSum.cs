@@ -51,7 +51,7 @@ namespace ConsoleApp1
                     return new int[] { pairs[target - nums[i]] , i };
                 } else
                 {
-                    pairs.Add(target - nums[i], i);
+                    pairs.Add(nums[i], i);
                 }
             }
             return default;

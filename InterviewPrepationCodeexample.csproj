@@ -49,13 +49,17 @@
     <Compile Include="Encapsulation.cs" />
     <Compile Include="I-List-Collection-Enumerable.cs" />
     <Compile Include="Inheritance.cs" />
+    <Compile Include="Integer.cs" />
     <Compile Include="LinkedList.cs" />
     <Compile Include="ListNode.cs" />
+    <Compile Include="Practise.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SimpleFactory.cs" />
     <Compile Include="Singleton.cs" />
     <Compile Include="StringCodingQuestions.cs" />
+    <Compile Include="Palindrome.cs" />
+    <Compile Include="StringRegexExpression.cs" />
     <Compile Include="TwoSum.cs" />
   </ItemGroup>
   <ItemGroup>
